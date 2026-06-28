@@ -20,13 +20,17 @@
   <!-- NAV -->
   <nav>
     <a href="#" class="logo">MJ<em>.</em></a>
-    <div class="nav-r">
-      <a href="#projects">Work</a>
-      <a href="#skills">Stack</a>
-      <a href="#experience">About</a>
-      <a href="#contact" class="nav-btn">Hire me ↗</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-r" id="nav-r">
+      <a href="#projects" class="nav-close-link">Work</a>
+      <a href="#skills" class="nav-close-link">Stack</a>
+      <a href="#experience" class="nav-close-link">About</a>
+      <a href="#contact" class="nav-btn nav-close-link">Hire me ↗</a>
     </div>
   </nav>
+  <div class="nav-overlay" id="nav-overlay"></div>
 
   <!-- HERO -->
   <div class="hero">

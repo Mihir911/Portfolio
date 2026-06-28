@@ -42,3 +42,38 @@ const so = new IntersectionObserver(e => {
 
 
 const sg = document.getElementById('sg'); if (sg) so.observe(sg);
+// ── Mobile nav hamburger ──
+const navToggle = document.getElementById('nav-toggle');
+const navR = document.getElementById('nav-r');
+const navOverlay = document.getElementById('nav-overlay');
+
+function openNav() {
+    navToggle.classList.add('open');
+    navR.classList.add('open');
+    navOverlay.classList.add('open');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeNav() {
+    navToggle.classList.remove('open');
+    navR.classList.remove('open');
+    navOverlay.classList.remove('open');
+    document.body.style.overflow = '';
+}
+
+navToggle.addEventListener('click', () => {
+    navR.classList.contains('open') ? closeNav() : openNav();
+});
+
+// Close when clicking overlay
+navOverlay.addEventListener('click', closeNav);
+
+// Close when clicking any nav link
+document.querySelectorAll('.nav-close-link').forEach(link => {
+    link.addEventListener('click', closeNav);
+});
+
+// Close on resize back to desktop
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 900) closeNav();
+});
