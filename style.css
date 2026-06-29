@@ -9,7 +9,7 @@
      --bg2: #161614;
      --card: #1C1C1A;
      --card2: #222220;
-     --amber: #F59E0B;
+     --amber: #3B82F6;
      --amber2: #D97706;
      --amber-dim: #78350F;
      --cream: #F5F0E8;
@@ -29,7 +29,7 @@
      color: var(--cream);
      font-family: 'DM Sans', sans-serif;
      line-height: 1.6;
-     overflow-x: hidden;
+     /* overflow-x: hidden; */
      cursor: none
  }
 
@@ -1038,7 +1038,7 @@
         inset: 0;
         background: rgba(0, 0, 0, 0.6);
         z-index: 140;
-        backdrop-filter: blur(4px)
+        /* backdrop-filter: blur(4px) */
     }
 
     .nav-overlay.open {
