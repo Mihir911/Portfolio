@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Hi, I'm Mihir Joshi 
 
-First, run the development server:
+I'm a self-taught Full Stack Developer from Gujarat, India, passionate about building modern web applications that solve real-world problems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Instead of just following tutorials, I prefer learning by building complete products—from designing responsive user interfaces to developing secure backend APIs and deploying applications to production.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Frontend
+- React.js
+- Next.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Backend
+- Node.js
+- Express.js
+- REST APIs
+- JWT Authentication
 
-## Learn More
+### Database
+- MongoDB
+- Mongoose
 
-To learn more about Next.js, take a look at the following resources:
+### Tools
+- Git
+- GitHub
+- Vercel
+- Postman
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Featured Projects
 
-## Deploy on Vercel
+##  SheetIQ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+An Excel analytics platform that transforms spreadsheets into meaningful insights through an intuitive interface.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Features
+
+- Excel Upload
+- Data Visualization
+- Analytics Dashboard
+- Secure Backend
+- Responsive UI
+
+🔗 https://sheet-iq-excel-analytics-platform.vercel.app/
+
+---
+
+##  Thought-Stream
+
+A secure MERN blogging platform featuring JWT authentication, encrypted passwords, and scalable REST APIs.
+
+### Features
+
+- Authentication
+- Blog Management
+- REST API
+- MongoDB
+- Responsive Design
+
+🔗 https://thought-stream-gold.vercel.app/
+
+---
+
+##  Vartalap
+
+A full-stack chat application built using the MERN stack.
+
+### Features
+
+- Real-time Messaging
+- Authentication
+- Responsive Design
+- Modern UI
+
+🔗 https://vartalap-weld.vercel.app/
+
+---
+
+## What I'm Currently Learning
+
+- Advanced Next.js
+- System Design
+- Scalable Backend Architecture
+- Performance Optimization
+
+---
+
+## Let's Connect
+
+ Email: spygamer737@gmail.com
+
+ LinkedIn:
+https://linkedin.com/in/mihir-joshi
+
+ GitHub:
+https://github.com/Mihir911
+
+---
+
+> I believe the best way to learn is by building. Every project is an opportunity to solve problems, improve my skills, and create something meaningful.
+

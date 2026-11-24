@@ -13,6 +13,10 @@
 # testing
 /coverage
 
+#old base
+/oldBase
+
+
 # next.js
 /.next/
 /out/
